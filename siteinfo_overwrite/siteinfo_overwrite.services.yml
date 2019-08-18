@@ -1,0 +1,9 @@
+services:
+  route_subscriber:
+    class: Drupal\siteinfo_overwrite\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
+  redirectpagecontenttype:
+    class: Drupal\siteinfo_overwrite\EventSubscriber\PageRedirectSubscriber
+    tags:
+      - { name: event_subscriber }

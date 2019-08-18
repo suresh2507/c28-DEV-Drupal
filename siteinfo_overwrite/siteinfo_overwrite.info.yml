@@ -1,0 +1,4 @@
+name: Site Information overwrite
+description: Overwriting the forms
+type: module
+core: 8.x
